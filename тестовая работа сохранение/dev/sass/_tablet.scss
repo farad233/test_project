@@ -1,0 +1,39 @@
+@media screen and (max-width: 1170px) {
+    .nav {
+        .second_layer {
+            margin-right: 20px;
+        }
+    }
+    .product__blog {
+        flex-direction: row-reverse;
+        .product__photo {
+            padding-top: 30px;
+            order: 3;
+        }
+        .product__info {
+            padding-left: 30px;
+            h1 {
+                padding-right: 0;
+            }
+        }
+    }
+    .product__info__blog {
+
+        .product__info__blog__tittle_description {
+            text-align: center;
+        }
+        .card {
+            margin-right: 0;
+            margin-bottom: 50px;
+            &:first-child {
+                margin-right: 50px;
+            }
+        }
+    }
+    .main_bg {
+        background-size: cover;
+        background-position: top;
+        background-image: url(../images/background.png);
+        background-repeat: no-repeat;
+    }
+}

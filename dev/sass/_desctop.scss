@@ -255,25 +255,36 @@
 .form {
     position: relative;
     &::before {
-        content: '';
+        content: 'Бесплатно';
         width: 27px;
         height: 15px;
         position: absolute;
         background-image: url(../images/car.svg);
+        background-repeat: no-repeat;
         top: 1%;
+        padding-left: 36px;
         left: 30%;
+        width: 79px;
+        color: #444444;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        position: absolute;
+        top: 1%;
+        left: 29%;
     }
     &::after {
-        content: 'Бесплатно';
-            width: 79px;
-            color: #444444;
-            font-family: Roboto;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 18px;
-            position: absolute;
-            top: 1%;
-            left: 42%;
+        content: '';
+        width: 49px;
+        height: 189px;
+        position: absolute;
+        right: -7px;
+        top: 185px;
+        background-image: url(../images/form_arrow.svg);
+        background-size: 49px 189px;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     width: 280px;
     display: flex;
